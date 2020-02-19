@@ -6,6 +6,11 @@ security:
       accessTokenUri: http://gateway/uaa/oauth/token
       grant-type: client_credentials
       scope: server
+      
+spring:
+  data:
+    mongodb:
+      database: piggymetrics
 
   zipkin:
     sender:
